@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Myriad Pro";
+  src: locale("Myriad Pro"), url('../../fonts/MyriadProRegular.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Myriad Pro";
+  src: locale("Myriad Pro"),url('../../fonts/Myriad-Pro-Bold.ttf');
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Myriad Pro";
+  src: locale("Myriad Pro"), url('../../fonts/Myriad-Pro-Light.ttf');
+  font-style: normal;
+  font-weight: 100;
+}

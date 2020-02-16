@@ -1,0 +1,19 @@
+.contacts {
+  color: white;
+  position: absolute;
+  right: 0;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+.contacts__phone::before {
+  content: "";
+  position: relative;
+  background-image: url(../images/icon_phone.png);
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*# sourceMappingURL=contacts.css.map */

@@ -1,0 +1,66 @@
+html, body, ul, li, button, input, textarea, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+  font-family: "Myriad Pro";
+  font-size: 16px;
+  line-height: inherit;
+}
+
+@font-face {
+  font-family: "Myriad Pro";
+  src: locale("Myriad Pro"), url("../../fonts/MyriadProRegular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Myriad Pro";
+  src: locale("Myriad Pro"), url("../../fonts/Myriad-Pro-Bold.ttf");
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Myriad Pro";
+  src: locale("Myriad Pro"), url("../../fonts/Myriad-Pro-Light.ttf");
+  font-style: normal;
+  font-weight: 100;
+}
+.contacts {
+  color: white;
+  position: absolute;
+  right: 0;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+.contacts__phone::before {
+  content: "";
+  position: relative;
+  background-image: url(../images/icon_phone.png);
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wrapper-container {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1180px;
+}
+
+.backgroung {
+  height: 975px;
+  background-image: url("./images/Slider.png");
+  background-size: cover;
+  background-position: left;
+  position: relative;
+}
+
+.logo {
+  position: relative;
+  top: 40px;
+  left: 9px;
+}
+
+/*# sourceMappingURL=style.css.map */
