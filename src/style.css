@@ -34,9 +34,10 @@ html, body, ul, li, button, input, textarea, h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
 }
 .contacts__phone::before {
+  display: block;
   content: "";
   position: relative;
-  background-image: url(../images/icon_phone.png);
+  background-image: url(/src/images/icon_phone.png);
   width: 20px;
   height: 20px;
   background-repeat: no-repeat;
